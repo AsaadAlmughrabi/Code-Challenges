@@ -39,7 +39,7 @@ class ListNode:
                 return
             current = current.next
         raise ValueError("Node with value '{}' not found".format(before))
-        raise ValueError(f"Node with value {before} not found in the linked list")
+        
 
 
 def main():
