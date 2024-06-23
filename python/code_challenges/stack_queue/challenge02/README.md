@@ -51,4 +51,4 @@ Test case '[{(())}]': True
 
 
 
-![ehite board](wb.jpg)
+![white board](wb2.jpg)
