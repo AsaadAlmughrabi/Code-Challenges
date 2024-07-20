@@ -16,7 +16,7 @@ def max_height(root):
    
     """
     if not root:
-        return 0
+        return -1
     
     left_height = max_height(root.left)
     right_height = max_height(root.right)
@@ -30,7 +30,7 @@ root.left = TreeNode(20)
 root.right = TreeNode(30)
 root.left.left = TreeNode(40)
 root.left.right = TreeNode(28)
-root.right.left = TreeNode(27)
 root.right.right = TreeNode(50)
+root.left.right.left = TreeNode(29)
 
 print(max_height(root)) 
