@@ -13,9 +13,7 @@ def find_pair_with_sum(root, target_sum):
     seen_values = set()
  
     def inorder_traversal(node):
-        """
-        Perform an in-order traversal of a binary search tree.
-        """
+        """Perform an in-order traversal of a binary search tree."""
         if not node:
             return False
   
